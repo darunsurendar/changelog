@@ -15,7 +15,7 @@ Changelog page
 - learn how to use HTML to structure a website, with css.
 
 ## Technologies Used
-- Tech 1 - HTML 5 / CSS4
+- Tech 1 - HTML 5 / CSS3
 - Tech 2 - VS Code 1.96.0
 - Tech 3 - chrome browser
 
