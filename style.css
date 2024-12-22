@@ -1,0 +1,94 @@
+** {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: "Poppins", sans-serif;
+}
+
+.ch {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+}
+
+.li {
+    display: flex;
+    width: 100%;
+    position: relative;
+
+}
+
+.hd {
+    text-align: center;
+    margin: 3em;
+}
+h3{
+    color: gray;
+}
+
+.date {
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    color: gray;
+}
+
+.dot {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    left: 40%;
+    margin-top: 2.4em;
+    z-index: 2;
+}
+
+.action {
+    display: flex;
+    justify-content: start;
+    width: 60%;
+
+}
+
+.date::before {
+    content: "";
+    position: relative;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    background-color: brown;
+    left: calc(40% + 6px);
+
+}
+
+p {
+    margin: 2em 2em 0em 2em;
+    
+}
+.visit{
+    margin: 3em;
+}
+
+button {
+    padding: 1em;
+    border-radius: 10px;
+    color: gray;
+    background-color: black;
+    border: none;
+
+}
+@media screen and (max-width:768px){
+    body{
+        margin: 0px;
+        background-color: aqua;
+    }
+}
